@@ -10,7 +10,7 @@ import java.nio.file.attribute.AclFileAttributeView
 import kotlin.random.Random
 import android.os.Handler as Handler1
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(){
     var score:Int=0
     var ImagePosition=ArrayList<ImageView>()
     var ha: Handler1 = Handler1()
