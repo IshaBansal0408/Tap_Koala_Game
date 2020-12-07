@@ -1,4 +1,4 @@
-package com.example.firstgame
+package com.example.tap_the_koala
 
 import org.junit.Test
 

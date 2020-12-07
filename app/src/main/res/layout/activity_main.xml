@@ -4,186 +4,115 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#050500"
-    android:foregroundGravity="center"
+    android:background="#303F9F"
     tools:context=".MainActivity">
 
-
-    <androidx.gridlayout.widget.GridLayout
-        android:id="@+id/gridLayout"
-        android:layout_width="358dp"
-        android:layout_height="480dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="132dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:onClick="increaseScore"
-            app:layout_column="0"
-            app:layout_row="0"
-            app:srcCompat="@drawable/sample3" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:onClick="increaseScore"
-            app:layout_column="1"
-            app:layout_row="0"
-            app:srcCompat="@drawable/sample3" />
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:onClick="increaseScore"
-            app:layout_column="2"
-            app:layout_row="0"
-            app:srcCompat="@drawable/sample3" />
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:onClick="increaseScore"
-            app:layout_column="0"
-            app:layout_row="1"
-            app:srcCompat="@drawable/sample3" />
-
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:onClick="increaseScore"
-            app:layout_column="1"
-            app:layout_row="1"
-            app:srcCompat="@drawable/sample3" />
-
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:onClick="increaseScore"
-            app:layout_column="2"
-            app:layout_row="1"
-            app:srcCompat="@drawable/sample3" />
-
-        <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:onClick="increaseScore"
-            app:layout_column="0"
-            app:layout_row="2"
-            app:srcCompat="@drawable/sample3" />
-
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:onClick="increaseScore"
-            app:layout_column="1"
-            app:layout_row="2"
-            app:srcCompat="@drawable/sample3" />
-
-        <ImageView
-            android:id="@+id/imageView9"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:onClick="increaseScore"
-            app:layout_column="2"
-            app:layout_row="2"
-            app:srcCompat="@drawable/sample3" />
-
-        <ImageView
-            android:id="@+id/imageView10"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:onClick="increaseScore"
-            app:layout_column="0"
-            app:layout_row="3"
-            app:srcCompat="@drawable/sample3" />
-
-        <ImageView
-            android:id="@+id/imageView11"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:onClick="increaseScore"
-            app:layout_column="1"
-            app:layout_row="3"
-            app:srcCompat="@drawable/sample3" />
-
-        <ImageView
-            android:id="@+id/imageView12"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:onClick="increaseScore"
-            app:layout_column="2"
-            app:layout_row="3"
-            app:srcCompat="@drawable/sample3" />
-
-    </androidx.gridlayout.widget.GridLayout>
-
     <TextView
-        android:id="@+id/timeid"
-        android:layout_width="235dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="49dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="27dp"
-        android:gravity="center"
-        android:text="TIMER :  20"
-        android:textColor="#E91E63"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/scoreid"
-        android:layout_width="249dp"
-        android:layout_height="69dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="81dp"
-        android:layout_marginBottom="37dp"
-        android:gravity="center"
-        android:text="SCORE :  0"
-        android:textColor="#FFEB3B"
-        android:textSize="36sp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="TAP THE KOALA GAME"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Choose the difficulty level"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="266dp"
+        android:layout_height="256dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        app:srcCompat="@drawable/sample3" />
 
     <Button
-        android:id="@+id/restartid"
-        android:layout_width="134dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="55dp"
-        android:background="#00BCD4"
-        android:gravity="center"
-        android:onClick="Restart"
-        android:text="RESTART!"
-        android:textColor="#050002"
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="16dp"
+        android:background="#388E3C"
+        android:onClick="StartEasy"
+        android:shadowColor="#050505"
+        android:text="EASY"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="10dp"
+        android:background="#F57C00"
+        android:onClick="StartMedium"
+        android:text="MEDIUM"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="104dp"
+        android:background="#D32F2F"
+        android:onClick="StartHard"
+        android:text="HARD"
+        android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/scoreid"
-        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
